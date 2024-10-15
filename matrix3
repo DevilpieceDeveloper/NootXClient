@@ -3,7 +3,7 @@
 
     try {
         // Fetch custom loading text from file
-        const customLoadingText = await (await fetch("https://raw.githubusercontent.com/PXIFusionX/Fusion-Loader/main/Custom-Load-Screen/Load%20Screen%20Text")).text().then(data => data.split("\n"));
+        const customLoadingText = await (await fetch("https://raw.githubusercontent.com/DevilpieceDeveloper/NootXClient/refs/heads/main/LoadingWords")).text().then(data => data.split("\n"));
 
         // Initialize index for randomizing text
         let index = 0;
